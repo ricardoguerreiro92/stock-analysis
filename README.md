@@ -27,6 +27,8 @@
     
         MsgBox "Only year 2017 or 2018 available for analysis, please try again.", vbExclamation
         yearValue = InputBox("What year would you like to run the analysis on?")
+        
+    Loop
     ```
     
 - Here we create an array(tickers) to store all the ticker name values. We also create a variable (tickerIndex) to help us access the correct index across the four different arrays. We also create 3 more arrays to store the total volume, starting and ending prices so we can create an yearly analysis later on:
